@@ -42,12 +42,14 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: normal;
+    color: var(--on_background_alt);
 }
 
 /* Navigation */
 nav {
     z-index: 10;
     position: fixed;
+    font-family: Oswald, sans-serif;
     font-size: 24px;
     letter-spacing: 3px;
     padding: 25px;
@@ -74,5 +76,5 @@ section {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    
+    text-align: center;
 }
