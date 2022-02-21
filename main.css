@@ -77,4 +77,21 @@ section {
     justify-content: center;
     min-height: 100vh;
     text-align: center;
+    flex-direction: column;
+}
+
+.about_container {
+    display: flex;
+    width: 80vw;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.about_container .image_container {
+    width: 250px;
+    border: 1px solid green;
+}
+
+.about_container img {
+    width: 98%;
 }
