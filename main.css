@@ -89,12 +89,36 @@ section {
 }
 
 .about_container .image_container {
-    width: 250px;
-    border: 1px solid green;
+    width: auto;
+    border: 1px solid var(--secondary_color);
     margin: 1rem;
     border-radius: 10px;
+    background: var(--background);
+    box-shadow: var(--box_shadow);
 }
 
 .about_container img {
     width: 98%;
+}
+
+/* Projects */
+.buttons {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+button {
+    min-width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid var(--primary_color);
+    font-size: 15px;
+    outline: none;
+}
+
+button:disabled {
+    opacity: 0.4;
+    cursor: default;
 }
