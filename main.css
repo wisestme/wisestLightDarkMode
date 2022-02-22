@@ -116,9 +116,50 @@ button {
     border: 2px solid var(--primary_color);
     font-size: 15px;
     outline: none;
+    margin-bottom: 20px;
 }
 
 button:disabled {
     opacity: 0.4;
     cursor: default;
+}
+
+.primary {
+    background: var(--primary_color);
+    color: var(--on_primary);
+}
+
+.secondary {
+    border: 2px solid var(--secondary_color);
+}
+
+.secondary,
+.secondary:hover,
+.outline.secondary:hover {
+    background: var(--secondary_color);
+    color: var(--on_primary);
+}
+
+.outline {
+    background: var(--background);
+    color: var(--on_background);
+}
+
+.outline:hover {
+    background: var(--primary_color);
+    color: var(--on_primary);
+}
+
+.text_box {
+    width: 40%;
+    text-align: justify;
+    background: rgb(0 0 0 / 50%);
+    color: var(--on_primary);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+p {
+    margin: 0;
+    line-height: 25px;
 }
