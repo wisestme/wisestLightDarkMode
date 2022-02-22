@@ -85,11 +85,14 @@ section {
     width: 80vw;
     justify-content: space-around;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .about_container .image_container {
     width: 250px;
     border: 1px solid green;
+    margin: 1rem;
+    border-radius: 10px;
 }
 
 .about_container img {
