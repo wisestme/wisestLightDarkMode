@@ -15,7 +15,7 @@
     --primary_varaint: #6c63ff;
     --secondary_color: #03dac5;
     --on_primary: #000;
-    --on_background: rgba(255, 255, 255 0.9);
+    --on_background: rgba(255, 255, 255, 0.9);
     --on_background_alt: rgba(255, 255, 255, 0.7);
     --background: #121212;
     --box_shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
