@@ -1,13 +1,13 @@
-// let switchToggle = document.querySelector('input[type="checkbox"]');
+let switchToggle = document.querySelector('input[type="checkbox"]');
 
 
-// function switchMode (event) {
-//     if(event.target.checked) {
-//         document.documentElement.setAttribute('data-theme', 'dark');
+function switchMode (event) {
+    if(event.target.checked) {
+        document.documentElement.setAttribute('data-theme', 'dark');
 
-//     } else {
-//         document.documentElement.setAttribute('data-theme', 'light');
-//     }
-// }
+    } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+    }
+}
 
-// switchToggle.addEventListener('change', switchMode);
+switchToggle.addEventListener('change', switchMode);
