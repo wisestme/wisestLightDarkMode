@@ -1,5 +1,20 @@
 let switchToggle = document.querySelector('input[type="checkbox"]');
 let modeIcon = document.querySelector('.fas');
+let svg = '.svg';
+let imagePath = `assets/svg/`;
+let images = ['undraw_experience_design_eq-3-j',
+            'undraw_usability_testing_re_uu1g',
+            'undraw_web_devices_re_m8sc'];
+
+let allImages = document.querySelectorAll('[class*="svg_image"]');
+console.log(allImages);
+
+allImages.forEach((element,index) => {
+    
+let imageSrc = `${imagePath}${images[index]}${svg}`;
+
+    element.setAttribute('src', imageSrc);
+});
 
 function switchMode (event) {
     if(event.target.checked) {
